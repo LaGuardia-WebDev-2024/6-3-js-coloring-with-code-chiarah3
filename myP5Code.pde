@@ -11,19 +11,29 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  
+  background(124, 204, 228);
   // The ground
-  rect(0, 300, 400, 100);  
+  fill(146, 172, 144 );
+  rect(0, 300, 400, 100);
 
   // The sun
+  fill(252, 255, 168);
   ellipse(80, 64, 100, 100);  
 
   // The snowman
+  fill(255,255,255)
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
   
+// eyes
+fill(0,0,0);
+ellipse (183,115, 10, 10)
+fill(0,0,0);
+ellipse (220,115, 10, 10)
 
+// mouth
+arc(200, 134, 29, 29, 0, 3.14);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
